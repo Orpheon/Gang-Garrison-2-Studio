@@ -1875,7 +1875,6 @@
     <scripts name="DummyScripts">
       <script>scripts\execute_program.gml</script>
       <script>scripts\execute_string.gml</script>
-      <script>scripts\show_menu_pos.gml</script>
       <script>scripts\export_include_file_location.gml</script>
     </scripts>
   </scripts>
@@ -1930,6 +1929,7 @@
       </objects>
       <object>objects\InGameMenuController</object>
       <object>objects\BuilderMenuController</object>
+      <object>objects\BuilderPropertySubmenu</object>
     </objects>
     <objects name="GameElements">
       <object>objects\Server</object>

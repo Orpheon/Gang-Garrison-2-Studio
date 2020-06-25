@@ -49,7 +49,8 @@ do
     {
         // If there's more than 1 property, show a list of them
         menu = string_copy(menu, 1, string_length(menu));
-        res = show_menu_pos(_x, _y, menu, -1);
+        instance_create(_x, _y, BuilderPropertySubmenu);
+        //res = show_menu_pos(_x, _y, menu, -1);
     }
     if (res != -1)
     {
